@@ -1,0 +1,6 @@
+.table td {
+  padding: .4rem !important;
+  align-items: center !important;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+}

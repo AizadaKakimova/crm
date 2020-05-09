@@ -1,0 +1,11 @@
+I"ò(function() {
+  App.statuses = App.cable.subscriptions.create("NotificationsChannel", {
+    connected: function() {},
+    disconnected: function() {},
+    received: function(data) {
+      return console.log(data);
+    }
+  });
+
+}).call(this);
+:ET

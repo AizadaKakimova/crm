@@ -1,0 +1,10 @@
+ default: &default
+  url: redis://localhost:6379
+development:
+  <<: *default
+test:
+  <<: *default
+production:
+  <<: *default
+  url: redis://185.22.65.119:6379/1
+  channel_prefix: crm_production

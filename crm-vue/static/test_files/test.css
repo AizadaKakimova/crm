@@ -1,0 +1,44 @@
+#firstColumn{
+	width: 30rem;
+}
+#secondColumn {
+	width: 10rem;
+}
+tr >td {
+  padding-bottom: 1em;
+}
+table {
+    /* to eliminate the default spacing between TDs*/
+    border-collapse: collapse; 
+}
+td {
+	padding: 0;
+}
+#firstColumn div {
+	border-left-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0;
+    /* now, here you can add the margin */
+    margin-bottom: 10px;
+    /* just some nice padding, you don't really need this */
+    padding: 10px;
+}
+#secondColumn div {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0;
+    /* now, here you can add the margin */
+    margin-bottom: 10px;
+    /* just some nice padding, you don't really need this */
+    padding: 10px;
+}
+td:last-child div {
+	border-style: solid;
+    border-color: black;
+    border-width: 1px 0;
+    /* now, here you can add the margin */
+    margin-bottom: 10px;
+    /* just side borders on first and last elements */
+    border-right-width: 1px;
+}
